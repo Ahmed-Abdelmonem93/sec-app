@@ -1,12 +1,17 @@
 import React from "react";
+import Header from "../comp/header";
+import Footer from "../comp/footer";
 
-export default function Error() {
+export default function Html() {
   return (
     <>
-      <div>
-        <h1>Page Not Found !!!!!!!!</h1>
-        <p>Sorry</p>
-      </div>
+      <Header />
+
+      <main>
+        <h1 className="my-title">Page Not Found !!!!!!!! .</h1>
+      </main>
+
+      <Footer />
     </>
   );
 }

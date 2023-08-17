@@ -79,6 +79,12 @@ h1 {
   border-radius: 5px;
 }
 
+.main-link.active {
+  color: cyan;
+  box-shadow: 0 0 5px cyan;
+  border-radius: 5px;
+}
+
 /* =======================================
    1.1 sub HTML + css + JavaScript
 ======================================== */

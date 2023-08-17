@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/home";
@@ -15,25 +14,24 @@ import Error from "./pages/error";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: < Home/>,
-    errorElement : < Error /> ,
+    element: <Home />,
+    errorElement: <Error />,
   },
 
   {
     path: "/html",
-    element: < Html/>,
+    element: <Html />,
   },
 
   {
     path: "/css",
-    element: < Css/>,
+    element: <Css />,
   },
-  
+
   {
     path: "/javaScript",
-    element: < JavaScript/>,
+    element: <JavaScript />,
   },
-  
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
