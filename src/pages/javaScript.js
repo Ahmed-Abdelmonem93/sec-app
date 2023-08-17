@@ -1,4 +1,7 @@
-function App() {
+
+import React from 'react'
+
+export default function Css() {
   return (
     
     <>
@@ -135,7 +138,7 @@ function App() {
       </header>
 
       <main>
-      <h1 className="my-title">Home Page 1</h1>
+      <h1 className='my-title'>Javascript Page </h1>
       </main>
 
       <footer>
@@ -145,7 +148,8 @@ function App() {
 
     </>
 
-  );
-}
+    )
+  };
 
-export default App;
+
+  
