@@ -1,15 +1,15 @@
 import React from "react";
 import Header from "../comp/header";
 import Footer from "../comp/footer";
+import Main from "../comp/maincontent";
+
 
 export default function Javascript() {
   return (
     <>
       <Header />
 
-      <main>
-        <h1 className="my-title">Javascript Page </h1>
-      </main>
+      <Main pageName="Javascript Page" />
 
       <Footer />
     </>

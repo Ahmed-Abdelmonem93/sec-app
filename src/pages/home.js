@@ -1,15 +1,14 @@
 import React from "react";
+
 import Header from "../comp/header";
 import Footer from "../comp/footer";
-
+import Main from "../comp/maincontent";
 export default function Home() {
   return (
     <>
       <Header />
 
-      <main>
-        <h1 className="my-title">Home Page 2</h1>
-      </main>
+      <Main pageName="Home Page" />
 
       <Footer />
     </>

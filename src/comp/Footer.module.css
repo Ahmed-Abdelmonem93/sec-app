@@ -1,0 +1,26 @@
+/* .catchfooter footer{
+    background-color: #1b1b1b;
+  
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+  }
+
+   .catchfooter .ahmed {
+    font-size: 50px;
+    background-color: yellowgreen;
+  }
+   */
+ 
+footer {
+  background-color: #1b1b1b;
+
+  padding: 20px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+ .ahmed {
+  border-radius: 23px;
+  background-color: yellowgreen  ;
+}  

@@ -1,10 +1,11 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   return (
     <>
-      <header className="hide-when-mobile">
+      <header className=" ahmed hide-when-mobile">
         <h1>
           <Link to="/">Courses 4 Arab</Link>
         </h1>
@@ -65,17 +66,21 @@ const Header = () => {
         </ul>
       </header>
 
-      <header className="show-when-mobile">
-        <h1>Courses 4 Arab</h1>
+      <header className=" ahmed show-when-mobile">
+        <h1>
+          <Link to="/">Courses 4 Arab</Link>
+        </h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
         <input id="burger" type="checkbox" />
         <div className="show-on-click">
           <div className="main-div">
-            <label htmlFor="html">
-              HTML <i className="fas fa-plus" />
-            </label>
+            <NavLink to="/html">
+              <label htmlFor="html">
+                HTML <i className="fas fa-plus" />
+              </label>
+            </NavLink>
             <input id="html" type="checkbox" />
             <ul className="sub-div">
               <li>
@@ -90,9 +95,12 @@ const Header = () => {
             </ul>
           </div>
           <div className="main-div">
-            <label htmlFor="css">
-              CSS <i className="fas fa-plus" />
-            </label>
+            <NavLink to="/css">
+              <label htmlFor="css">
+                CSS <i className="fas fa-plus" />
+              </label>
+            </NavLink>
+
             <input id="css" type="checkbox" />
             <ul className="sub-div">
               <li>
@@ -121,9 +129,12 @@ const Header = () => {
             </ul>
           </div>
           <div className="main-div">
-            <label htmlFor="js">
-              JavaScript <i className="fas fa-plus" />
-            </label>
+            <NavLink to="/javascript" className="a7a">
+              <label htmlFor="js">
+                JavaScript <i className="fas fa-plus" />
+              </label>
+            </NavLink>
+
             <input id="js" type="checkbox" />
             <ul className="sub-div">
               <li>
